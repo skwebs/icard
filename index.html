@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta manisharset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icard:Canvas</title>
+    <style>
+        canvas {
+            /* border: thin solid; */
+            background-color: rgba(255, 204, 204, 0.315);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <button id="downloadBtn">Download</button><br>
+    <!-- <canvas id="canvas"></canvas> -->
+    <!-- <script src="./student.json"></script> -->
+    <script src="./script.js"></script>
+    <script>
+        const data = [
+            {
+                "name": "Satish Kumar Sharma",
+                "father": "Bindeshwar Pd. Sharma",
+                "std": "Nur",
+                "roll": 2,
+                "stuImgSrc": "./manish.jpg"
+            }
+            ,
+            {
+                "name": "Manish Kumar Sharma",
+                "father": "Bindeshwar Pd. Sharma",
+                "std": "LKG",
+                "roll": 2,
+                "stuImgSrc": "./manish.jpg"
+            }
+            ,
+            {
+                "name": "Satish Kumar Sharma",
+                "father": "Bindeshwar Pd. Sharma",
+                "std": "Nursery",
+                "roll": 2,
+                "stuImgSrc": "./manish.jpg"
+            }
+            ,
+            {
+                "name": "Satish Kumar Sharma",
+                "father": "Bindeshwar Pd. Sharma",
+                "std": "Nur",
+                "roll": 2,
+                "stuImgSrc": "./manish.jpg"
+            }
+            ,
+            {
+                "name": "Satish Kumar Sharma",
+                "father": "Bindeshwar Pd. Sharma",
+                "std": "Nur",
+                "roll": 2,
+                "stuImgSrc": "./manish.jpg"
+            }
+            ,
+            {
+                "name": "Satish Kumar Sharma",
+                "father": "Bindeshwar Pd. Sharma",
+                "std": "Nur",
+                "roll": 2,
+                "stuImgSrc": "./manish.jpg"
+            }
+            ,
+            {
+                "name": "Satish Kumar Sharma",
+                "father": "Bindeshwar Pd. Sharma",
+                "std": "Nur",
+                "roll": 2,
+                "stuImgSrc": "./manish.jpg"
+            }
+            ,
+            {
+                "name": "Satish Kumar Sharma",
+                "father": "Bindeshwar Pd. Sharma",
+                "std": "Nur",
+                "roll": 2,
+                "stuImgSrc": "./manish.jpg"
+            }
+            ,
+            {
+                "name": "Satish Kumar Sharma",
+                "father": "Bindeshwar Pd. Sharma",
+                "std": "Nur",
+                "roll": 2,
+                "stuImgSrc": "./manish.jpg"
+            }
+            ,
+            {
+                "name": "Satish Kumar Sharma",
+                "father": "Bindeshwar Pd. Sharma",
+                "std": "Nur",
+                "roll": 2,
+                "stuImgSrc": "./manish.jpg"
+            }
+            ,
+            {
+                "name": "Satish Kumar Sharma",
+                "father": "Bindeshwar Pd. Sharma",
+                "std": "Nur",
+                "roll": 2,
+                "stuImgSrc": "./manish.jpg"
+            }
+        ]
+
+
+        window.addEventListener("DOMContentLoaded", function () {
+            // const data = "./student.json";
+            data.map((d, i) => (
+
+                createICard(d)
+            ))
+            console.log(data);
+            // createICard(
+            //     {
+            //         name: "Satish Kumar Sharma",
+            //         father: "Bindeshwar Pd. Sharma",
+            //         std: "OneTwo",
+            //         roll: 2,
+            //         stuImgSrc: "./manish.jpg",
+            //         // img: "./icard-bg.jpg"
+            //     }
+            // );
+        });
+
+    </script>
+</body>
+
+</html>
